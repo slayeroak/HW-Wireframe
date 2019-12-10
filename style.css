@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+
+header {
+    background: #ebebeb;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+
+}
+
+aside {
+    float: left;
+    width: 495px;
+    text-align: center;
+
+}
+
+section {
+    float: left;
+    width: 495px;
+    text-align: center;
+
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+    text-align: center;
+
+}
+
+h1 {
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+}
+
+p {
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+}

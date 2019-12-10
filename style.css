@@ -13,13 +13,17 @@ header {
 
 nav {
     text-align: center;
+    background: #ebebeb;
 
 }
 
 aside {
     float: left;
-    width: 495px;
+    width: 405px;
     text-align: center;
+    background: #ebebeb;
+    margin-right: 30px;
+    margin-left: 10px;
 
 }
 
@@ -27,6 +31,7 @@ section {
     float: left;
     width: 495px;
     text-align: center;
+    background: #ebebeb;
 
 }
 
@@ -34,17 +39,26 @@ article {
     color: #ebebeb;
     background: #777;
     text-align: center;
-
+    width: 90%;
+    margin: 10px;
+    overflow: auto;
 }
 
 h1 {
     color: #777;
     background: #ebebeb;
     text-align: center;
+    /* width: 90%; */
 }
 
 p {
     color: #777;
+    background: #ebebeb;
+    text-align: center;
+    /* width: 90%; */
+}
+
+footer {
     background: #ebebeb;
     text-align: center;
 }

@@ -1,9 +1,12 @@
 body {
+    display: table;
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin: 100px;
+    margin-top: 0%;
     padding: 50px;
     padding-top: 0%;
 }
@@ -11,19 +14,21 @@ body {
 header {
     background: #ebebeb;
     text-align: center;
+    height: 25px;
 }
 
 nav {
-    text-align: center;
     background: #ebebeb;
+    text-align: center;
+    height: 25px;
 
 }
 
 aside {
     float: left;
     display: block;
-    width: 445px;
     text-align: center;
+    width: 445px;
     background: #ebebeb;
     margin: 10px;
     margin-right: 0%;
@@ -55,17 +60,23 @@ article {
     overflow: auto;
 }
 
-h1 {
+article h1 {
     color: #777;
     background: #ebebeb;
     text-align: center;
+    height: 50px;
+    margin-top: 0%;
+    margin: 10px;
     /* width: 90%; */
 }
 
-p {
+article p {
     color: #777;
     background: #ebebeb;
     text-align: center;
+    height: 50px;
+    margin-top: 0%;
+    margin: 10px;
     /* width: 90%; */
 }
 
@@ -73,4 +84,5 @@ footer {
     background: #ebebeb;
     text-align: center;
     clear: both;
+    height: 25px;
 }

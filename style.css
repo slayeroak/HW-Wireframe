@@ -1,5 +1,4 @@
 body {
-    display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
     background: #777;
@@ -10,19 +9,25 @@ body {
     padding: 50px;
     padding-top: 0%;
 }
+/* elements */
+p {
+    color: #777;
+    text-align: center;
+}
 
+/* header */
 header {
-    float: left;
     background: #ebebeb;
     text-align: center;
     height: 75px;
-    width: 100%;
+    width: 960px;
     margin: 10px;
     display: inline-block;
 }
 
+
+/* nav */
 nav {
-    float: left;
     background: #ebebeb;
     text-align: center;
     height: 75px;
@@ -31,22 +36,9 @@ nav {
     display: inline-block;
 }
 
-aside {
-    float: right;
-    display: block;
-    text-align: center;
-    width: 445px;
-    background: #ebebeb;
-    margin: 10px;
-    margin-right: 0%;
-    max-height: 250px;
-    height: 100vh;
-    display: inline-block;
-
-}
-
+/* section containing article and elements*/
 section {
-
+    float: left;
     width: 495px;
     text-align: center;
     background: #ebebeb;
@@ -54,8 +46,6 @@ section {
     margin-left: 0%;
     max-height: 250px;
     height: 100vh;
-    display: inline-block;
-
 }
 
 article {
@@ -76,7 +66,6 @@ article h1 {
     height: 50px;
     margin-top: 0%;
     margin: 10px;
-    /* width: 90%; */
 }
 
 article p {
@@ -86,15 +75,26 @@ article p {
     height: 50px;
     margin-top: 0%;
     margin: 10px;
-    /* width: 90%; */
+}
+
+
+/* aside */
+aside {
+    float: left;
+    text-align: center;
+    width: 445px;
+    background: #ebebeb;
+    margin: 10px;
+    margin-right: 0%;
+    max-height: 250px;
+    height: 100vh;
 }
 
 footer {
     background: #ebebeb;
     text-align: center;
-    clear: both;
     height: 75px;
     width: 100%;
     margin: 10px;
-    display: inline-block;
+   display: inline-table;
 }

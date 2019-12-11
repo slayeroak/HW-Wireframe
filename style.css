@@ -4,6 +4,8 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    padding: 50px;
+    padding-top: 0%;
 }
 
 header {
@@ -24,6 +26,8 @@ aside {
     text-align: center;
     background: #ebebeb;
     margin: 10px;
+    max-height: 250px;
+    height: 100vh;
 
 }
 
@@ -33,6 +37,8 @@ section {
     text-align: center;
     background: #ebebeb;
     margin: 10px;
+    max-height: 250px;
+    height: 100vh;
 
 }
 
